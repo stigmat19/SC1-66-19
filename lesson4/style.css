@@ -1,0 +1,57 @@
+@import "test.css";
+
+body{
+    color: #fff;
+}
+
+p{
+    background-color: greenyellow;
+    color: red!important;
+    font-size: 24px
+}
+#ttt{
+    background-color: turquoise;
+}
+.aaa{
+    font-weight: bold;
+}
+.active{
+    background-color: rosybrown;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: rebeccapurple;
+    color: #fff;
+    font-size: 24px;
+}
+/*
+div .active{
+    background-color: blue;
+}
+*/
+div header ul.active li#testId a.active span#testId{
+    color: black;
+}
+
+header ul.active li#testId a.active span#testId{
+    color: cornflowerblue;
+}
+
+.error{
+    background-color: red;
+}
+.test{
+    color: blue;
+}
+#testId{
+    color: green;
+}
+div.test button{
+    color: red;
+}
+header{
+    background-color: violet;
+}
+
