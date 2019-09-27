@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 10000px;
+}
+.content-wrap{
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-wrap div{
+    width: 350px;
+    height: 300px;
+    float: left;
+}
+.first{
+    background-color: red;
+}
+.second{
+    background-color: blue;
+}
+.thirt{
+    background-color: green;
+}
+.content-wrap  .clear{
+    width: 100%;
+    clear: both;
+    float: none;
+    height: 0;
+}
+
+/*position*/
+.position-parent{
+    width: 200px;
+    margin: 50px auto 0;
+    border: 6px solid black;
+    position: relative;
+}
+.position-parent div{
+    width: 50px;
+    height: 50px;
+}
+.div1{
+    background-color: red;
+    position: absolute;
+    top: 13px;
+    left: 71px;
+}
+.div2{
+    background-color: green;
+    position: relative;
+    top: -16px;
+    left: 64px;
+}
+.div3{
+    background-color: blue;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

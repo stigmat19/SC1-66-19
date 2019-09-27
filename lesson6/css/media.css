@@ -1,0 +1,36 @@
+@media all and (max-width: 1090px){
+    .content-wrap{
+        width: 750px;
+    }
+    .content-wrap div{
+        width: 250px;
+    }
+    .first{
+        background-color: yellow;
+    }
+    .second{
+        background: violet;
+    }
+    .thirt{
+        background-color: aqua;
+    }
+}
+
+@media all and (max-width: 800px){
+    .content-wrap{
+        width: 300px;
+    }
+    .content-wrap div{
+        width: 100%;
+        float: none;
+    }
+    .first{
+        background-color: gray;
+    }
+    .second{
+        background: fuchsia;
+    }
+    .thirt{
+        background-color: navajowhite;
+    }
+}
